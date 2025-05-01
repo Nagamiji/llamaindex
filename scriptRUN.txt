@@ -1,0 +1,5 @@
+psql -U postgres -h localhost -d postgres
+DROP TABLE IF EXISTS subject_score, group_schedule, student, subject, room, instructor, department CASCADE;
+
+
+psql -U postgres -h localhost -d postgres -f scripts/init_db.sql

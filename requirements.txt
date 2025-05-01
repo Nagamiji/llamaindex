@@ -1,0 +1,19 @@
+# src/requirements.txt
+
+# The meta‐package will bring in core, llms, readers, and agent modules
+llama-index==0.10.62
+
+# OpenAI SDK (for llama-index’s OpenAI LLM)
+openai==1.40.3
+
+# Database layer
+SQLAlchemy==2.0.31
+psycopg2-binary==2.9.9
+
+# Environment variable loader
+python-dotenv==1.0.1
+
+# Frontend UI
+streamlit==1.37.0
+
+pandas==2.1.0
